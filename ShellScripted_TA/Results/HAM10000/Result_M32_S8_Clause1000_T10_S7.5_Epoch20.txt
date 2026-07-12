@@ -1,0 +1,25 @@
+===== Tsetlin Machine Training Result =====
+Date: Mon 23 Feb 2026 20:18:59 IST
+
+Dataset Paths:
+X_Train: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/X_train.npy
+Y_Train: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/Y_train.npy
+X_Test: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/X_test.npy
+Y_Test: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/Y_test.npy
+
+Model Save Directory: ./Model_Saved
+Prediction CSV Directory: ./Class_Sums
+
+Parameters:
+CLAUSES: 1000
+CLASSES: 2
+THRESHOLD (T): 10
+SPECIFICITY (s): 7.5
+EPOCHS: 20
+FEATURES: 19080
+
+Accuracy: 77.98%
+Precision (Cancer=1): 0.3750
+Recall (Cancer=1): 0.1333
+F1-Score (Cancer=1): 0.1967
+===========================================

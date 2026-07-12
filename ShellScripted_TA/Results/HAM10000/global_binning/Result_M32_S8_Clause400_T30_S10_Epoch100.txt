@@ -1,0 +1,36 @@
+===== Tsetlin Machine Training Result =====
+Date: Sat 14 Mar 2026 21:13:03 IST
+
+Dataset Paths:
+X_Train: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/Booleanized_Data/global_binning/M32_S8/X_train.npy
+Y_Train: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/Booleanized_Data/global_binning/M32_S8/Y_train.npy
+X_Test: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/Booleanized_Data/global_binning/M32_S8/X_test.npy
+Y_Test: /Users/devendergupta/Desktop/python_project/tsetlin_machine/local/ShellScripted_TA/Booleanized_Data/global_binning/M32_S8/Y_test.npy
+
+Model Save Directory: ./Model_Saved
+Prediction CSV Directory: ./Class_Sums
+
+Parameters:
+CLAUSES: 400
+CLASSES: 2
+THRESHOLD (T): 30
+SPECIFICITY (s): 10
+EPOCHS: 100
+FEATURES: 19080
+
+Accuracy: 77.68%
+Precision (Cancer=1): 0.3883
+Recall (Cancer=1): 0.1802
+F1-Score (Cancer=1): 0.2462
+
+Full Classification Report:
+Full Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.93      0.87      1598
+           1       0.39      0.18      0.25       405
+
+    accuracy                           0.78      2003
+   macro avg       0.60      0.55      0.56      2003
+weighted avg       0.73      0.78      0.74      2003
+===========================================
